@@ -1,0 +1,4 @@
+com\semrush\pages\AuditTests.class
+com\semrush\pages\CreateProjectTests.class
+com\semrush\pages\LoginTests.class
+com\semrush\pages\TestBase.class

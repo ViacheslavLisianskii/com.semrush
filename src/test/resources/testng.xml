@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Web Tests">
+	<test verbose="2" name="Login tests">
+		<classes>
+			<class name="com.semrush.pages.LoginTests"/>
+		</classes>
+	</test>
+	<test verbose="2" name="Create project tests">
+		<classes>
+			<class name="com.semrush.pages.CreateProjectTests"/>
+		</classes>
+	</test>
+	<test verbose="2" name="Audit tests">
+		<classes>
+			<class name="com.semrush.pages.AuditTests"/>
+		</classes>
+	</test>
+</suite>
