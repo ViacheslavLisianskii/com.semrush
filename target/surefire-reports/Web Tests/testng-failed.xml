@@ -5,13 +5,14 @@
     <classes>
       <class name="com.semrush.pages.AuditTests">
         <methods>
-          <include name="setMasksForDisallowUrls_shouldNotBePresentInReport"/>
+          <include name="beforeMethod"/>
           <include name="reportShouldContainsStatistic"/>
           <include name="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport"/>
           <include name="beforeClass"/>
           <include name="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="setRemoveParametersUrls_shouldNotBePresentInReport"/>
         </methods>
       </class> <!-- com.semrush.pages.AuditTests -->
       <class name="com.semrush.pages.CreateProjectTests">

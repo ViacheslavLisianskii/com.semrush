@@ -14,6 +14,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElemen
 public class SiteAuditSettingsPage extends Page {
 
     private final String LIMIT_TYPE_SELECT_NAME = "limitType";
+    private final String NOTIFY_CHECKBOX_NAME = "notify";
     private final String PAGE_LIMIT_SELECT_NAME = "pageLimit";
     private final String START_AUDIT_BUTTON_XPATH = "//button[@type='button' and contains(@class, 'btn')]";
     private final String MASKS_BUTTON_XPATH = "//div[@data-step='masks']";
@@ -23,10 +24,10 @@ public class SiteAuditSettingsPage extends Page {
 
     @FindBy(name = PAGE_LIMIT_SELECT_NAME)
     private WebElement limitOfCheckedPagesInput;
+    @FindBy(name = NOTIFY_CHECKBOX_NAME)
+    private WebElement notifyCheckbox;
     @FindBy(xpath = START_AUDIT_BUTTON_XPATH)
     private WebElement startSiteAudit;
-    @FindBy(name = LIMIT_TYPE_SELECT_NAME)
-    private WebElement limitTypeSelect;
     @FindBy(xpath = MASKS_BUTTON_XPATH)
     private WebElement masksWizardButton;
     @FindBy(name = DISALLOW_TEXTAREA_NAME)
@@ -41,7 +42,8 @@ public class SiteAuditSettingsPage extends Page {
     }
 
     public SiteAuditSettingsPage selectLimitType(String limitType){
-        Select dropDown = new Select(limitTypeSelect);
+        WebElement selectElement = getWebElement(By.name(LIMIT_TYPE_SELECT_NAME));
+        Select dropDown = new Select(selectElement);
         dropDown.selectByValue(limitType);
 
         return this;
@@ -50,6 +52,12 @@ public class SiteAuditSettingsPage extends Page {
     public SiteAuditSettingsPage setPageLimit(String limit){
         limitOfCheckedPagesInput.clear();
         limitOfCheckedPagesInput.sendKeys(limit);
+
+        return this;
+    }
+
+    public SiteAuditSettingsPage clickCheckbox(){
+        notifyCheckbox.click();
 
         return this;
     }

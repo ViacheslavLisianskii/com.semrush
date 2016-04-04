@@ -15,6 +15,7 @@ public class AuditHelper extends DriverBasedHelper {
         pages.siteAuditSettingsPage
                 .selectLimitType(selectType)
                 .setPageLimit(pageLimit)
+                .clickCheckbox()
                 .chooseMasksWizard()
                 .setDisallow(disallowUrls)
                 .chooseParametersWizard()

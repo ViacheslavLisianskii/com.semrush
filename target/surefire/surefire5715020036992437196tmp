@@ -1,5 +1,5 @@
 #surefire
-#Mon Apr 04 12:33:39 MSK 2016
+#Mon Apr 04 14:39:14 MSK 2016
 tc.0=com.semrush.pages.TestBase
 testng.configurator=org.apache.maven.surefire.testng.conf.TestNG652Configurator
 testng.test.classpath=C\:\\apache-maven-3.3.9\\bin\\com.semrush\\target\\test-classes

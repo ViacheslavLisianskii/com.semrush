@@ -1,149 +1,392 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="9" passed="9">
+<testng-results skipped="0" failed="3" total="9" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Web Tests" duration-ms="290755" started-at="2016-04-03T20:38:20Z" finished-at="2016-04-03T20:43:11Z">
+  <suite name="Web Tests" duration-ms="364163" started-at="2016-04-04T09:33:40Z" finished-at="2016-04-04T09:39:44Z">
     <groups>
     </groups>
-    <test name="Login tests" duration-ms="25267" started-at="2016-04-03T20:38:20Z" finished-at="2016-04-03T20:38:45Z">
+    <test name="Login tests" duration-ms="25757" started-at="2016-04-04T09:33:40Z" finished-at="2016-04-04T09:34:06Z">
       <class name="com.semrush.pages.LoginTests">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeTest" is-config="true" duration-ms="1977" started-at="2016-04-03T23:38:20Z" finished-at="2016-04-03T23:38:22Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeTest" is-config="true" duration-ms="2875" started-at="2016-04-04T12:33:40Z" finished-at="2016-04-04T12:33:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="10932" started-at="2016-04-03T23:38:22Z" finished-at="2016-04-03T23:38:33Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="9665" started-at="2016-04-04T12:33:43Z" finished-at="2016-04-04T12:33:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="correctEmailAndPassword_LoginSuccessful()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="correctEmailAndPassword_LoginSuccessful" duration-ms="4016" started-at="2016-04-03T23:38:33Z" finished-at="2016-04-03T23:38:37Z">
+        <test-method status="PASS" signature="correctEmailAndPassword_LoginSuccessful()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="correctEmailAndPassword_LoginSuccessful" duration-ms="4167" started-at="2016-04-04T12:33:53Z" finished-at="2016-04-04T12:33:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctEmailAndPassword_LoginSuccessful -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="1612" started-at="2016-04-03T23:38:37Z" finished-at="2016-04-03T23:38:39Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="1808" started-at="2016-04-04T12:33:57Z" finished-at="2016-04-04T12:33:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="4688" started-at="2016-04-03T23:38:39Z" finished-at="2016-04-03T23:38:43Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="4952" started-at="2016-04-04T12:33:58Z" finished-at="2016-04-04T12:34:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="incorrectPassword_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="incorrectPassword_ErrorMessageIsDisplayed" duration-ms="777" started-at="2016-04-03T23:38:43Z" finished-at="2016-04-03T23:38:44Z">
+        <test-method status="PASS" signature="incorrectPassword_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="incorrectPassword_ErrorMessageIsDisplayed" duration-ms="876" started-at="2016-04-04T12:34:03Z" finished-at="2016-04-04T12:34:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectPassword_ErrorMessageIsDisplayed -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="32" started-at="2016-04-03T23:38:44Z" finished-at="2016-04-03T23:38:44Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="35" started-at="2016-04-04T12:34:04Z" finished-at="2016-04-04T12:34:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterTest" is-config="true" duration-ms="1227" started-at="2016-04-03T23:38:44Z" finished-at="2016-04-03T23:38:45Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterTest" is-config="true" duration-ms="1370" started-at="2016-04-04T12:34:04Z" finished-at="2016-04-04T12:34:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.semrush.pages.LoginTests -->
     </test> <!-- Login tests -->
-    <test name="Create project tests" duration-ms="25718" started-at="2016-04-03T20:38:45Z" finished-at="2016-04-03T20:39:11Z">
+    <test name="Create project tests" duration-ms="55050" started-at="2016-04-04T09:34:06Z" finished-at="2016-04-04T09:35:01Z">
       <class name="com.semrush.pages.CreateProjectTests">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeTest" is-config="true" duration-ms="1604" started-at="2016-04-03T23:38:45Z" finished-at="2016-04-03T23:38:47Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeTest" is-config="true" duration-ms="2590" started-at="2016-04-04T12:34:06Z" finished-at="2016-04-04T12:34:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeClass" is-config="true" duration-ms="6107" started-at="2016-04-03T23:38:47Z" finished-at="2016-04-03T23:38:53Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeClass" is-config="true" duration-ms="7036" started-at="2016-04-04T12:34:08Z" finished-at="2016-04-04T12:34:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="correctProjectName_ProjectHasCreated()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="correctProjectName_ProjectHasCreated" duration-ms="7378" started-at="2016-04-03T23:38:53Z" finished-at="2016-04-03T23:39:01Z">
+        <test-method status="PASS" signature="correctProjectName_ProjectHasCreated()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="correctProjectName_ProjectHasCreated" duration-ms="5879" started-at="2016-04-04T12:34:15Z" finished-at="2016-04-04T12:34:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctProjectName_ProjectHasCreated -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="3082" started-at="2016-04-03T23:39:01Z" finished-at="2016-04-03T23:39:04Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="3353" started-at="2016-04-04T12:34:21Z" finished-at="2016-04-04T12:34:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="incorrectProjectDomain_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="incorrectProjectDomain_ErrorMessageIsDisplayed" duration-ms="3387" started-at="2016-04-03T23:39:04Z" finished-at="2016-04-03T23:39:07Z">
+        <test-method status="PASS" signature="incorrectProjectDomain_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="incorrectProjectDomain_ErrorMessageIsDisplayed" duration-ms="2514" started-at="2016-04-04T12:34:25Z" finished-at="2016-04-04T12:34:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectProjectDomain_ErrorMessageIsDisplayed -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="2965" started-at="2016-04-03T23:39:07Z" finished-at="2016-04-03T23:39:10Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="32562" started-at="2016-04-04T12:34:27Z" finished-at="2016-04-04T12:35:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterTest" is-config="true" duration-ms="1195" started-at="2016-04-03T23:39:10Z" finished-at="2016-04-03T23:39:11Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterTest" is-config="true" duration-ms="1116" started-at="2016-04-04T12:35:00Z" finished-at="2016-04-04T12:35:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.semrush.pages.CreateProjectTests -->
     </test> <!-- Create project tests -->
-    <test name="Audit tests" duration-ms="239739" started-at="2016-04-03T20:39:11Z" finished-at="2016-04-03T20:43:11Z">
+    <test name="Audit tests" duration-ms="283319" started-at="2016-04-04T09:35:01Z" finished-at="2016-04-04T09:39:44Z">
       <class name="com.semrush.pages.AuditTests">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeTest" is-config="true" duration-ms="1594" started-at="2016-04-03T23:39:11Z" finished-at="2016-04-03T23:39:13Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeTest" is-config="true" duration-ms="1468" started-at="2016-04-04T12:35:01Z" finished-at="2016-04-04T12:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeClass" is-config="true" duration-ms="6449" started-at="2016-04-03T23:39:13Z" finished-at="2016-04-03T23:39:19Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeClass" is-config="true" duration-ms="7367" started-at="2016-04-04T12:35:02Z" finished-at="2016-04-04T12:35:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="5098" started-at="2016-04-03T23:39:19Z" finished-at="2016-04-03T23:39:24Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2946" started-at="2016-04-04T12:35:10Z" finished-at="2016-04-04T12:35:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="reportShouldContainsStatistic()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="reportShouldContainsStatistic" duration-ms="13520" started-at="2016-04-03T23:39:24Z" finished-at="2016-04-03T23:39:38Z">
+        <test-method status="FAIL" signature="reportShouldContainsStatistic()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="reportShouldContainsStatistic" duration-ms="32919" started-at="2016-04-04T12:35:13Z" finished-at="2016-04-04T12:35:46Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"name","selector":"limitType"}
+  (Session info: chrome=49.0.2623.110)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20096_14346}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9f432bc4005b94a959e75f94e5d41d1
+*** Element info: {Using=name, value=limitType}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"limitType"}
+  (Session info: chrome=49.0.2623.110)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20096_14346}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9f432bc4005b94a959e75f94e5d41d1
+*** Element info: {Using=name, value=limitType}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+	at com.semrush.pages.SiteAuditSettingsPage.selectLimitType(SiteAuditSettingsPage.java:44)
+	at com.semrush.logic.AuditHelper.startAudit(AuditHelper.java:16)
+	at com.semrush.logic.AuditHelper.startAudit(AuditHelper.java:26)
+	at com.semrush.pages.AuditTests.reportShouldContainsStatistic(AuditTests.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportShouldContainsStatistic -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3123" started-at="2016-04-03T23:39:38Z" finished-at="2016-04-03T23:39:41Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3775" started-at="2016-04-04T12:35:46Z" finished-at="2016-04-04T12:35:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2734" started-at="2016-04-03T23:39:41Z" finished-at="2016-04-03T23:39:44Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2506" started-at="2016-04-04T12:35:49Z" finished-at="2016-04-04T12:35:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages" duration-ms="13648" started-at="2016-04-03T23:39:44Z" finished-at="2016-04-03T23:39:57Z">
+        <test-method status="FAIL" signature="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages" duration-ms="39387" started-at="2016-04-04T12:35:52Z" finished-at="2016-04-04T12:36:31Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 10 seconds waiting for element to be clickable: [[ChromeDriver: chrome on XP (b9f432bc4005b94a959e75f94e5d41d1)] -> xpath: //div[@class='sa-tool-name']/a]
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20096_14346}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9f432bc4005b94a959e75f94e5d41d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for element to be clickable: [[ChromeDriver: chrome on XP (b9f432bc4005b94a959e75f94e5d41d1)] -> xpath: //div[@class='sa-tool-name']/a]
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20096_14346}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9f432bc4005b94a959e75f94e5d41d1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.semrush.pages.DashboardPage.openReport(DashboardPage.java:39)
+	at com.semrush.logic.DashboardHelper.openReport(DashboardHelper.java:21)
+	at com.semrush.pages.AuditTests.setCustomPagesCrawled_shouldCrawlCustomNumberOfPages(AuditTests.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='sa-tool-name']/a"}
+  (Session info: chrome=49.0.2623.110)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20096_14346}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9f432bc4005b94a959e75f94e5d41d1
+*** Element info: {Using=xpath, value=//div[@class='sa-tool-name']/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:696)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:689)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setCustomPagesCrawled_shouldCrawlCustomNumberOfPages -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3759" started-at="2016-04-03T23:39:57Z" finished-at="2016-04-03T23:40:01Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3655" started-at="2016-04-04T12:36:31Z" finished-at="2016-04-04T12:36:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2784" started-at="2016-04-03T23:40:01Z" finished-at="2016-04-03T23:40:04Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2818" started-at="2016-04-04T12:36:35Z" finished-at="2016-04-04T12:36:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport" duration-ms="76337" started-at="2016-04-03T23:40:04Z" finished-at="2016-04-03T23:41:20Z">
+        <test-method status="FAIL" signature="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport" duration-ms="42235" started-at="2016-04-04T12:36:38Z" finished-at="2016-04-04T12:37:20Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 10 seconds waiting for element to be clickable: [[ChromeDriver: chrome on XP (b9f432bc4005b94a959e75f94e5d41d1)] -> xpath: //div[@class='sa-tool-name']/a]
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20096_14346}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9f432bc4005b94a959e75f94e5d41d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for element to be clickable: [[ChromeDriver: chrome on XP (b9f432bc4005b94a959e75f94e5d41d1)] -> xpath: //div[@class='sa-tool-name']/a]
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20096_14346}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9f432bc4005b94a959e75f94e5d41d1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.semrush.pages.DashboardPage.openReport(DashboardPage.java:39)
+	at com.semrush.logic.DashboardHelper.openReport(DashboardHelper.java:21)
+	at com.semrush.pages.AuditTests.setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport(AuditTests.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='sa-tool-name']/a"}
+  (Session info: chrome=49.0.2623.110)
+  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20096_14346}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9f432bc4005b94a959e75f94e5d41d1
+*** Element info: {Using=xpath, value=//div[@class='sa-tool-name']/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:696)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:689)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3460" started-at="2016-04-03T23:41:20Z" finished-at="2016-04-03T23:41:24Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3788" started-at="2016-04-04T12:37:20Z" finished-at="2016-04-04T12:37:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2801" started-at="2016-04-03T23:41:24Z" finished-at="2016-04-03T23:41:26Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2528" started-at="2016-04-04T12:37:24Z" finished-at="2016-04-04T12:37:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="setMasksForDisallowUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowUrls_shouldNotBePresentInReport" duration-ms="48071" started-at="2016-04-03T23:41:26Z" finished-at="2016-04-03T23:42:15Z">
+        <test-method status="PASS" signature="setMasksForDisallowUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowUrls_shouldNotBePresentInReport" duration-ms="69362" started-at="2016-04-04T12:37:26Z" finished-at="2016-04-04T12:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setMasksForDisallowUrls_shouldNotBePresentInReport -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3513" started-at="2016-04-03T23:42:15Z" finished-at="2016-04-03T23:42:18Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3345" started-at="2016-04-04T12:38:36Z" finished-at="2016-04-04T12:38:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="3068" started-at="2016-04-03T23:42:18Z" finished-at="2016-04-03T23:42:21Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2504" started-at="2016-04-04T12:38:39Z" finished-at="2016-04-04T12:38:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="setRemoveParametersUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setRemoveParametersUrls_shouldNotBePresentInReport" duration-ms="45246" started-at="2016-04-03T23:42:21Z" finished-at="2016-04-03T23:43:06Z">
+        <test-method status="PASS" signature="setRemoveParametersUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setRemoveParametersUrls_shouldNotBePresentInReport" duration-ms="57820" started-at="2016-04-04T12:38:41Z" finished-at="2016-04-04T12:39:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setRemoveParametersUrls_shouldNotBePresentInReport -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3351" started-at="2016-04-03T23:43:06Z" finished-at="2016-04-03T23:43:10Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3724" started-at="2016-04-04T12:39:39Z" finished-at="2016-04-04T12:39:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterTest" is-config="true" duration-ms="1182" started-at="2016-04-03T23:43:10Z" finished-at="2016-04-03T23:43:11Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterTest" is-config="true" duration-ms="1162" started-at="2016-04-04T12:39:43Z" finished-at="2016-04-04T12:39:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
