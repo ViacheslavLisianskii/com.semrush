@@ -41,9 +41,6 @@ Process finished with exit code 0
 For example, add 'page' to remove all parameter values as page=1, page=2, etc.
 Thus, we will consider /clothes and /clothes?page=1 as one URL.<br /><br />
 
-Вчера вечером всё проверял - было отлично, сегодня аудит 10ти страниц сайта vk.com идёт около минуты. Так что
-таймаут можно побольше выставить.
-
 ***Итог***
 Если есть вопросы работе или мало тестов, то присылайте вопросы в мой скайп: ton.fier
 Я сразу на них отвечу, чтобы не тратить много времени.

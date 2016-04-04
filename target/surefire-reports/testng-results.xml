@@ -1,203 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="5" total="9" passed="4">
+<testng-results skipped="4" failed="0" total="9" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Web Tests" duration-ms="381417" started-at="2016-04-04T11:47:52Z" finished-at="2016-04-04T11:54:13Z">
+  <suite name="Web Tests" duration-ms="80055" started-at="2016-04-04T12:07:56Z" finished-at="2016-04-04T12:09:16Z">
     <groups>
     </groups>
-    <test name="Login tests" duration-ms="23047" started-at="2016-04-04T11:47:52Z" finished-at="2016-04-04T11:48:15Z">
+    <test name="Login tests" duration-ms="24345" started-at="2016-04-04T12:07:56Z" finished-at="2016-04-04T12:08:21Z">
       <class name="com.semrush.pages.LoginTests">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeTest" is-config="true" duration-ms="1822" started-at="2016-04-04T14:47:52Z" finished-at="2016-04-04T14:47:53Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeTest" is-config="true" duration-ms="1303" started-at="2016-04-04T15:07:56Z" finished-at="2016-04-04T15:07:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="8743" started-at="2016-04-04T14:47:53Z" finished-at="2016-04-04T14:48:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="10172" started-at="2016-04-04T15:07:58Z" finished-at="2016-04-04T15:08:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="correctEmailAndPassword_LoginSuccessful()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="correctEmailAndPassword_LoginSuccessful" duration-ms="3763" started-at="2016-04-04T14:48:02Z" finished-at="2016-04-04T14:48:06Z">
+        <test-method status="PASS" signature="correctEmailAndPassword_LoginSuccessful()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="correctEmailAndPassword_LoginSuccessful" duration-ms="4586" started-at="2016-04-04T15:08:08Z" finished-at="2016-04-04T15:08:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctEmailAndPassword_LoginSuccessful -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="1612" started-at="2016-04-04T14:48:06Z" finished-at="2016-04-04T14:48:08Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="1535" started-at="2016-04-04T15:08:12Z" finished-at="2016-04-04T15:08:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="4873" started-at="2016-04-04T14:48:08Z" finished-at="2016-04-04T14:48:12Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="4711" started-at="2016-04-04T15:08:14Z" finished-at="2016-04-04T15:08:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="incorrectPassword_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="incorrectPassword_ErrorMessageIsDisplayed" duration-ms="924" started-at="2016-04-04T14:48:12Z" finished-at="2016-04-04T14:48:13Z">
+        <test-method status="PASS" signature="incorrectPassword_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="incorrectPassword_ErrorMessageIsDisplayed" duration-ms="747" started-at="2016-04-04T15:08:19Z" finished-at="2016-04-04T15:08:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectPassword_ErrorMessageIsDisplayed -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="38" started-at="2016-04-04T14:48:13Z" finished-at="2016-04-04T14:48:13Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="33" started-at="2016-04-04T15:08:19Z" finished-at="2016-04-04T15:08:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterTest" is-config="true" duration-ms="1265" started-at="2016-04-04T14:48:13Z" finished-at="2016-04-04T14:48:15Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterTest" is-config="true" duration-ms="1253" started-at="2016-04-04T15:08:19Z" finished-at="2016-04-04T15:08:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.semrush.pages.LoginTests -->
     </test> <!-- Login tests -->
-    <test name="Create project tests" duration-ms="53813" started-at="2016-04-04T11:48:15Z" finished-at="2016-04-04T11:49:08Z">
+    <test name="Create project tests" duration-ms="24658" started-at="2016-04-04T12:08:21Z" finished-at="2016-04-04T12:08:45Z">
       <class name="com.semrush.pages.CreateProjectTests">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeTest" is-config="true" duration-ms="1543" started-at="2016-04-04T14:48:15Z" finished-at="2016-04-04T14:48:16Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeTest" is-config="true" duration-ms="1523" started-at="2016-04-04T15:08:21Z" finished-at="2016-04-04T15:08:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeClass" is-config="true" duration-ms="7422" started-at="2016-04-04T14:48:16Z" finished-at="2016-04-04T14:48:24Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeClass" is-config="true" duration-ms="7618" started-at="2016-04-04T15:08:22Z" finished-at="2016-04-04T15:08:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="correctProjectName_ProjectHasCreated()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="correctProjectName_ProjectHasCreated" duration-ms="5378" started-at="2016-04-04T14:48:24Z" finished-at="2016-04-04T14:48:29Z">
+        <test-method status="PASS" signature="correctProjectName_ProjectHasCreated()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="correctProjectName_ProjectHasCreated" duration-ms="5994" started-at="2016-04-04T15:08:30Z" finished-at="2016-04-04T15:08:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctProjectName_ProjectHasCreated -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="2586" started-at="2016-04-04T14:48:29Z" finished-at="2016-04-04T14:48:32Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="2666" started-at="2016-04-04T15:08:36Z" finished-at="2016-04-04T15:08:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="incorrectProjectDomain_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="incorrectProjectDomain_ErrorMessageIsDisplayed" duration-ms="2645" started-at="2016-04-04T14:48:32Z" finished-at="2016-04-04T14:48:34Z">
+        <test-method status="PASS" signature="incorrectProjectDomain_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="incorrectProjectDomain_ErrorMessageIsDisplayed" duration-ms="2903" started-at="2016-04-04T15:08:39Z" finished-at="2016-04-04T15:08:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectProjectDomain_ErrorMessageIsDisplayed -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="33098" started-at="2016-04-04T14:48:34Z" finished-at="2016-04-04T14:49:07Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="2834" started-at="2016-04-04T15:08:41Z" finished-at="2016-04-04T15:08:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterTest" is-config="true" duration-ms="1140" started-at="2016-04-04T14:49:07Z" finished-at="2016-04-04T14:49:08Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterTest" is-config="true" duration-ms="1120" started-at="2016-04-04T15:08:44Z" finished-at="2016-04-04T15:08:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.semrush.pages.CreateProjectTests -->
     </test> <!-- Create project tests -->
-    <test name="Audit tests" duration-ms="304522" started-at="2016-04-04T11:49:09Z" finished-at="2016-04-04T11:54:13Z">
+    <test name="Audit tests" duration-ms="31015" started-at="2016-04-04T12:08:45Z" finished-at="2016-04-04T12:09:16Z">
       <class name="com.semrush.pages.AuditTests">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeTest" is-config="true" duration-ms="1534" started-at="2016-04-04T14:49:09Z" finished-at="2016-04-04T14:49:10Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeTest" is-config="true" duration-ms="1468" started-at="2016-04-04T15:08:45Z" finished-at="2016-04-04T15:08:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeClass" is-config="true" duration-ms="5854" started-at="2016-04-04T14:49:10Z" finished-at="2016-04-04T14:49:16Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeClass" is-config="true" duration-ms="5239" started-at="2016-04-04T15:08:47Z" finished-at="2016-04-04T15:08:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="5820" started-at="2016-04-04T14:49:16Z" finished-at="2016-04-04T14:49:22Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2733" started-at="2016-04-04T15:08:52Z" finished-at="2016-04-04T15:08:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="reportShouldContainsStatistic()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="reportShouldContainsStatistic" duration-ms="32752" started-at="2016-04-04T14:49:22Z" finished-at="2016-04-04T14:49:54Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"name","selector":"limitType"}
-  (Session info: chrome=49.0.2623.110)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
-*** Element info: {Using=name, value=limitType}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"limitType"}
-  (Session info: chrome=49.0.2623.110)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
-*** Element info: {Using=name, value=limitType}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:451)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
-	at com.semrush.pages.Page.getWebElement(Page.java:29)
-	at com.semrush.pages.SiteAuditSettingsPage.selectLimitType(SiteAuditSettingsPage.java:45)
-	at com.semrush.logic.AuditHelper.startAudit(AuditHelper.java:16)
-	at com.semrush.logic.AuditHelper.startAudit(AuditHelper.java:27)
-	at com.semrush.pages.AuditTests.reportShouldContainsStatistic(AuditTests.java:34)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="reportShouldContainsStatistic()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="reportShouldContainsStatistic" duration-ms="17091" started-at="2016-04-04T15:08:55Z" finished-at="2016-04-04T15:09:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportShouldContainsStatistic -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3881" started-at="2016-04-04T14:49:54Z" finished-at="2016-04-04T14:49:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2465" started-at="2016-04-04T14:49:58Z" finished-at="2016-04-04T14:50:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages" duration-ms="32724" started-at="2016-04-04T14:50:01Z" finished-at="2016-04-04T14:50:34Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:12Z" finished-at="2016-04-04T15:09:12Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"name","selector":"limitType"}
+              <![CDATA[unknown error: Element is not clickable at point (1855, 285). Other element would receive the click: <div class="pr-popupCenter-Row pr-confirm-delete" data-reactid=".2.1.$275951.0.1.2.0.0">...</div>
   (Session info: chrome=49.0.2623.110)
   (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 28 milliseconds
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
-*** Element info: {Using=name, value=limitType}]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir6860_1348}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 106e1902a264221bfd9473547f04f3f8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"limitType"}
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1855, 285). Other element would receive the click: <div class="pr-popupCenter-Row pr-confirm-delete" data-reactid=".2.1.$275951.0.1.2.0.0">...</div>
   (Session info: chrome=49.0.2623.110)
   (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 28 milliseconds
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
-*** Element info: {Using=name, value=limitType}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir6860_1348}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 106e1902a264221bfd9473547f04f3f8
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -205,21 +121,24 @@ Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:451)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
-	at com.semrush.pages.Page.getWebElement(Page.java:29)
-	at com.semrush.pages.SiteAuditSettingsPage.selectLimitType(SiteAuditSettingsPage.java:45)
-	at com.semrush.logic.AuditHelper.startAudit(AuditHelper.java:16)
-	at com.semrush.logic.AuditHelper.startAudit(AuditHelper.java:27)
-	at com.semrush.pages.AuditTests.setCustomPagesCrawled_shouldCrawlCustomNumberOfPages(AuditTests.java:72)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.semrush.pages.ProjectsListPage.deleteProject(ProjectsListPage.java:65)
+	at com.semrush.logic.ProjectsHelper.deleteProject(ProjectsHelper.java:22)
+	at com.semrush.pages.AuditTests.afterMethod(AuditTests.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
@@ -243,303 +162,59 @@ Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setCustomPagesCrawled_shouldCrawlCustomNumberOfPages -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="4639" started-at="2016-04-04T14:50:34Z" finished-at="2016-04-04T14:50:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="4269" started-at="2016-04-04T14:50:38Z" finished-at="2016-04-04T14:50:42Z">
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport" duration-ms="64850" started-at="2016-04-04T14:50:42Z" finished-at="2016-04-04T14:51:47Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Timed out after 20 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@35841320
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@35841320
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
-	at com.semrush.pages.DashboardPage.openReport(DashboardPage.java:39)
-	at com.semrush.logic.DashboardHelper.openReport(DashboardHelper.java:21)
-	at com.semrush.pages.AuditTests.setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport(AuditTests.java:45)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='sa-tool-name']/a"}
-  (Session info: chrome=49.0.2623.110)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.03 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
-*** Element info: {Using=xpath, value=//div[@class='sa-tool-name']/a}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:696)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:689)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
-	... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="4397" started-at="2016-04-04T14:51:47Z" finished-at="2016-04-04T14:51:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2427" started-at="2016-04-04T14:51:52Z" finished-at="2016-04-04T14:51:54Z">
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="setMasksForDisallowUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowUrls_shouldNotBePresentInReport" duration-ms="63545" started-at="2016-04-04T14:51:54Z" finished-at="2016-04-04T14:52:58Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Timed out after 20 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@35841320
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@35841320
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
-	at com.semrush.pages.DashboardPage.openReport(DashboardPage.java:39)
-	at com.semrush.logic.DashboardHelper.openReport(DashboardHelper.java:21)
-	at com.semrush.pages.AuditTests.setMasksForDisallowUrls_shouldNotBePresentInReport(AuditTests.java:54)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='sa-tool-name']/a"}
-  (Session info: chrome=49.0.2623.110)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.01 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
-*** Element info: {Using=xpath, value=//div[@class='sa-tool-name']/a}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:696)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:689)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
-	... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="setMasksForDisallowUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowUrls_shouldNotBePresentInReport" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setMasksForDisallowUrls_shouldNotBePresentInReport -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3776" started-at="2016-04-04T14:52:58Z" finished-at="2016-04-04T14:53:01Z">
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2399" started-at="2016-04-04T14:53:01Z" finished-at="2016-04-04T14:53:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="setRemoveParametersUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setRemoveParametersUrls_shouldNotBePresentInReport" duration-ms="63589" started-at="2016-04-04T14:53:04Z" finished-at="2016-04-04T14:54:07Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Timed out after 20 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@35841320
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@35841320
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
-	at com.semrush.pages.DashboardPage.openReport(DashboardPage.java:39)
-	at com.semrush.logic.DashboardHelper.openReport(DashboardHelper.java:21)
-	at com.semrush.pages.AuditTests.setRemoveParametersUrls_shouldNotBePresentInReport(AuditTests.java:63)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='sa-tool-name']/a"}
-  (Session info: chrome=49.0.2623.110)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir20368_19066}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3fc6bb2131b307f2bbd0c0eb0f6de36b
-*** Element info: {Using=xpath, value=//div[@class='sa-tool-name']/a}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:696)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:689)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
-	... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="SKIP" signature="setRemoveParametersUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setRemoveParametersUrls_shouldNotBePresentInReport" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setRemoveParametersUrls_shouldNotBePresentInReport -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="4388" started-at="2016-04-04T14:54:07Z" finished-at="2016-04-04T14:54:12Z">
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterTest" is-config="true" duration-ms="1199" started-at="2016-04-04T14:54:12Z" finished-at="2016-04-04T14:54:13Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
