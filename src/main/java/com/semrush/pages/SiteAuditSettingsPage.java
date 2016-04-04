@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 /**
  * Created by fier on 4/3/2016.
@@ -42,8 +43,7 @@ public class SiteAuditSettingsPage extends Page {
     }
 
     public SiteAuditSettingsPage selectLimitType(String limitType){
-        WebElement selectElement = getWebElement(By.name(LIMIT_TYPE_SELECT_NAME));
-        Select dropDown = new Select(selectElement);
+        Select dropDown = new Select(wait.until(visibilityOfElementLocated(By.name(LIMIT_TYPE_SELECT_NAME))));
         dropDown.selectByValue(limitType);
 
         return this;

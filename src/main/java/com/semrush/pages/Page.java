@@ -1,8 +1,6 @@
 package com.semrush.pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
@@ -23,9 +21,5 @@ public abstract class Page {
 
 	public Page ensurePageLoaded() {
 		return this;
-	}
-
-	public WebElement getWebElement(By by){
-		return driver.findElement(by);
 	}
 }

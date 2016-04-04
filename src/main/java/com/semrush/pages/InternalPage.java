@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 /**
  * Created by fier on 4/2/2016.
@@ -33,7 +34,7 @@ public class InternalPage extends Page {
 
     public void changeLanguage(String locale) {
         languageButton.click();
-        getWebElement(By.xpath("//*[contains(@href, '/projects/?l=" + locale + "')]")).click();
+        wait.until(visibilityOfElementLocated(By.xpath("//*[contains(@href, '/projects/?l=" + locale + "')]"))).click();
     }
 
     public void logout() {
