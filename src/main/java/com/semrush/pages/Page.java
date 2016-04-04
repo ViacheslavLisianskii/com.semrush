@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public abstract class Page {
 
-	private final int ELEMENT_TIMEOUT = 15;
+	private final int ELEMENT_TIMEOUT = 30;
 	protected WebDriver driver;
 	protected WebDriverWait wait;
 	protected PageManager pages;
