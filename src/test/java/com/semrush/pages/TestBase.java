@@ -1,5 +1,5 @@
 package com.semrush.pages;
-import com.semrush.logic.ApplicationManager;
+import com.site.logic.ApplicationManager;
 import org.testng.annotations.*;
 
 public class TestBase {
@@ -8,8 +8,8 @@ public class TestBase {
 	* Please, read "read me.txt" file
 	* */
 
-	public final String correctEmail = "lisianskii.viacheslav@gmail.com";
-	public final String correctPassword = "SEMrush2016";
+	public final String correctEmail = "";
+	public final String correctPassword = "";
 	public final String correctProjectDomain = "vk.com";
 	public final String correctProjectName = "vk";
 

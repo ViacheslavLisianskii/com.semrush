@@ -1,6 +1,6 @@
-package com.semrush.logic;
+package com.site.logic;
 
-import com.semrush.pages.PageManager;
+import com.site.pages.PageManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 

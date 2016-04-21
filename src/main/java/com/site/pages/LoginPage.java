@@ -1,4 +1,4 @@
-package com.semrush.pages;
+package com.site.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

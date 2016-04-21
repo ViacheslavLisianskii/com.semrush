@@ -1,220 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="4" failed="0" total="9" passed="5">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Web Tests" duration-ms="80055" started-at="2016-04-04T12:07:56Z" finished-at="2016-04-04T12:09:16Z">
+  <suite name="Web Tests" duration-ms="346731" started-at="2016-04-04T12:09:34Z" finished-at="2016-04-04T12:15:20Z">
     <groups>
     </groups>
-    <test name="Login tests" duration-ms="24345" started-at="2016-04-04T12:07:56Z" finished-at="2016-04-04T12:08:21Z">
+    <test name="Login tests" duration-ms="25891" started-at="2016-04-04T12:09:34Z" finished-at="2016-04-04T12:10:00Z">
       <class name="com.semrush.pages.LoginTests">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeTest" is-config="true" duration-ms="1303" started-at="2016-04-04T15:07:56Z" finished-at="2016-04-04T15:07:58Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeTest" is-config="true" duration-ms="1309" started-at="2016-04-04T15:09:34Z" finished-at="2016-04-04T15:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="10172" started-at="2016-04-04T15:07:58Z" finished-at="2016-04-04T15:08:08Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="11372" started-at="2016-04-04T15:09:35Z" finished-at="2016-04-04T15:09:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="correctEmailAndPassword_LoginSuccessful()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="correctEmailAndPassword_LoginSuccessful" duration-ms="4586" started-at="2016-04-04T15:08:08Z" finished-at="2016-04-04T15:08:12Z">
+        <test-method status="PASS" signature="correctEmailAndPassword_LoginSuccessful()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="correctEmailAndPassword_LoginSuccessful" duration-ms="3037" started-at="2016-04-04T15:09:46Z" finished-at="2016-04-04T15:09:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctEmailAndPassword_LoginSuccessful -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="1535" started-at="2016-04-04T15:08:12Z" finished-at="2016-04-04T15:08:14Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="1901" started-at="2016-04-04T15:09:49Z" finished-at="2016-04-04T15:09:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="4711" started-at="2016-04-04T15:08:14Z" finished-at="2016-04-04T15:08:19Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="beforeMethod" is-config="true" duration-ms="5917" started-at="2016-04-04T15:09:51Z" finished-at="2016-04-04T15:09:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="incorrectPassword_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="incorrectPassword_ErrorMessageIsDisplayed" duration-ms="747" started-at="2016-04-04T15:08:19Z" finished-at="2016-04-04T15:08:19Z">
+        <test-method status="PASS" signature="incorrectPassword_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="incorrectPassword_ErrorMessageIsDisplayed" duration-ms="1051" started-at="2016-04-04T15:09:57Z" finished-at="2016-04-04T15:09:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectPassword_ErrorMessageIsDisplayed -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="33" started-at="2016-04-04T15:08:19Z" finished-at="2016-04-04T15:08:19Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterMethod" is-config="true" duration-ms="39" started-at="2016-04-04T15:09:58Z" finished-at="2016-04-04T15:09:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterTest" is-config="true" duration-ms="1253" started-at="2016-04-04T15:08:19Z" finished-at="2016-04-04T15:08:21Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.LoginTests@6cd8737]" name="afterTest" is-config="true" duration-ms="1259" started-at="2016-04-04T15:09:58Z" finished-at="2016-04-04T15:10:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.semrush.pages.LoginTests -->
     </test> <!-- Login tests -->
-    <test name="Create project tests" duration-ms="24658" started-at="2016-04-04T12:08:21Z" finished-at="2016-04-04T12:08:45Z">
+    <test name="Create project tests" duration-ms="53738" started-at="2016-04-04T12:10:00Z" finished-at="2016-04-04T12:10:53Z">
       <class name="com.semrush.pages.CreateProjectTests">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeTest" is-config="true" duration-ms="1523" started-at="2016-04-04T15:08:21Z" finished-at="2016-04-04T15:08:22Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeTest" is-config="true" duration-ms="1530" started-at="2016-04-04T15:10:00Z" finished-at="2016-04-04T15:10:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeClass" is-config="true" duration-ms="7618" started-at="2016-04-04T15:08:22Z" finished-at="2016-04-04T15:08:30Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="beforeClass" is-config="true" duration-ms="7436" started-at="2016-04-04T15:10:01Z" finished-at="2016-04-04T15:10:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="correctProjectName_ProjectHasCreated()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="correctProjectName_ProjectHasCreated" duration-ms="5994" started-at="2016-04-04T15:08:30Z" finished-at="2016-04-04T15:08:36Z">
+        <test-method status="PASS" signature="correctProjectName_ProjectHasCreated()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="correctProjectName_ProjectHasCreated" duration-ms="5389" started-at="2016-04-04T15:10:09Z" finished-at="2016-04-04T15:10:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctProjectName_ProjectHasCreated -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="2666" started-at="2016-04-04T15:08:36Z" finished-at="2016-04-04T15:08:39Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="3523" started-at="2016-04-04T15:10:14Z" finished-at="2016-04-04T15:10:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="incorrectProjectDomain_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="incorrectProjectDomain_ErrorMessageIsDisplayed" duration-ms="2903" started-at="2016-04-04T15:08:39Z" finished-at="2016-04-04T15:08:41Z">
+        <test-method status="PASS" signature="incorrectProjectDomain_ErrorMessageIsDisplayed()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="incorrectProjectDomain_ErrorMessageIsDisplayed" duration-ms="2625" started-at="2016-04-04T15:10:17Z" finished-at="2016-04-04T15:10:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectProjectDomain_ErrorMessageIsDisplayed -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="2834" started-at="2016-04-04T15:08:41Z" finished-at="2016-04-04T15:08:44Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterMethod" is-config="true" duration-ms="32051" started-at="2016-04-04T15:10:20Z" finished-at="2016-04-04T15:10:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterTest" is-config="true" duration-ms="1120" started-at="2016-04-04T15:08:44Z" finished-at="2016-04-04T15:08:45Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.CreateProjectTests@3f2a3a5]" name="afterTest" is-config="true" duration-ms="1182" started-at="2016-04-04T15:10:52Z" finished-at="2016-04-04T15:10:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.semrush.pages.CreateProjectTests -->
     </test> <!-- Create project tests -->
-    <test name="Audit tests" duration-ms="31015" started-at="2016-04-04T12:08:45Z" finished-at="2016-04-04T12:09:16Z">
+    <test name="Audit tests" duration-ms="267065" started-at="2016-04-04T12:10:53Z" finished-at="2016-04-04T12:15:20Z">
       <class name="com.semrush.pages.AuditTests">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeTest" is-config="true" duration-ms="1468" started-at="2016-04-04T15:08:45Z" finished-at="2016-04-04T15:08:47Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeTest" is-config="true" duration-ms="1552" started-at="2016-04-04T15:10:53Z" finished-at="2016-04-04T15:10:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeClass" is-config="true" duration-ms="5239" started-at="2016-04-04T15:08:47Z" finished-at="2016-04-04T15:08:52Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeClass" is-config="true" duration-ms="7302" started-at="2016-04-04T15:10:55Z" finished-at="2016-04-04T15:11:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2733" started-at="2016-04-04T15:08:52Z" finished-at="2016-04-04T15:08:55Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2494" started-at="2016-04-04T15:11:02Z" finished-at="2016-04-04T15:11:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="reportShouldContainsStatistic()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="reportShouldContainsStatistic" duration-ms="17091" started-at="2016-04-04T15:08:55Z" finished-at="2016-04-04T15:09:12Z">
+        <test-method status="PASS" signature="reportShouldContainsStatistic()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="reportShouldContainsStatistic" duration-ms="15782" started-at="2016-04-04T15:11:05Z" finished-at="2016-04-04T15:11:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportShouldContainsStatistic -->
-        <test-method status="FAIL" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:12Z" finished-at="2016-04-04T15:09:12Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element is not clickable at point (1855, 285). Other element would receive the click: <div class="pr-popupCenter-Row pr-confirm-delete" data-reactid=".2.1.$275951.0.1.2.0.0">...</div>
-  (Session info: chrome=49.0.2623.110)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 28 milliseconds
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir6860_1348}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 106e1902a264221bfd9473547f04f3f8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (1855, 285). Other element would receive the click: <div class="pr-popupCenter-Row pr-confirm-delete" data-reactid=".2.1.$275951.0.1.2.0.0">...</div>
-  (Session info: chrome=49.0.2623.110)
-  (Driver info: chromedriver=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4),platform=Windows NT 10.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 28 milliseconds
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'DESKTOP-KT2J2VU', ip: '192.168.0.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\fier\AppData\Local\Temp\scoped_dir6860_1348}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=49.0.2623.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 106e1902a264221bfd9473547f04f3f8
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.semrush.pages.ProjectsListPage.deleteProject(ProjectsListPage.java:65)
-	at com.semrush.logic.ProjectsHelper.deleteProject(ProjectsHelper.java:22)
-	at com.semrush.pages.AuditTests.afterMethod(AuditTests.java:29)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3018" started-at="2016-04-04T15:11:20Z" finished-at="2016-04-04T15:11:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2784" started-at="2016-04-04T15:11:24Z" finished-at="2016-04-04T15:11:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+        <test-method status="PASS" signature="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setCustomPagesCrawled_shouldCrawlCustomNumberOfPages" duration-ms="13657" started-at="2016-04-04T15:11:26Z" finished-at="2016-04-04T15:11:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setCustomPagesCrawled_shouldCrawlCustomNumberOfPages -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3022" started-at="2016-04-04T15:11:40Z" finished-at="2016-04-04T15:11:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="3443" started-at="2016-04-04T15:11:43Z" finished-at="2016-04-04T15:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport" duration-ms="77419" started-at="2016-04-04T15:11:46Z" finished-at="2016-04-04T15:13:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setMasksForDisallowAndRemoveParameters_shouldNotBePresentInReport -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="10028" started-at="2016-04-04T15:13:04Z" finished-at="2016-04-04T15:13:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="setMasksForDisallowUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowUrls_shouldNotBePresentInReport" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2854" started-at="2016-04-04T15:13:14Z" finished-at="2016-04-04T15:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setMasksForDisallowUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setMasksForDisallowUrls_shouldNotBePresentInReport" duration-ms="65273" started-at="2016-04-04T15:13:17Z" finished-at="2016-04-04T15:14:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setMasksForDisallowUrls_shouldNotBePresentInReport -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3669" started-at="2016-04-04T15:14:22Z" finished-at="2016-04-04T15:14:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="setRemoveParametersUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setRemoveParametersUrls_shouldNotBePresentInReport" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setRemoveParametersUrls_shouldNotBePresentInReport -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="beforeMethod" is-config="true" duration-ms="2611" started-at="2016-04-04T15:14:26Z" finished-at="2016-04-04T15:14:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-04-04T15:09:16Z" finished-at="2016-04-04T15:09:16Z">
+        <test-method status="PASS" signature="setRemoveParametersUrls_shouldNotBePresentInReport()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="setRemoveParametersUrls_shouldNotBePresentInReport" duration-ms="47348" started-at="2016-04-04T15:14:28Z" finished-at="2016-04-04T15:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRemoveParametersUrls_shouldNotBePresentInReport -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterMethod" is-config="true" duration-ms="3593" started-at="2016-04-04T15:15:16Z" finished-at="2016-04-04T15:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.semrush.pages.AuditTests@327471b5]" name="afterTest" is-config="true" duration-ms="1214" started-at="2016-04-04T15:15:19Z" finished-at="2016-04-04T15:15:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

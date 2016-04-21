@@ -1,4 +1,4 @@
-package com.semrush.webdriver;
+package com.site.webdriver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

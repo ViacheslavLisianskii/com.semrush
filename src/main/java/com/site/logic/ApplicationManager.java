@@ -1,7 +1,7 @@
-package com.semrush.logic;
+package com.site.logic;
 
-import com.semrush.util.PropertyLoader;
-import com.semrush.webdriver.WebDriverFactory;
+import com.site.util.PropertyLoader;
+import com.site.webdriver.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;

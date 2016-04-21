@@ -1,6 +1,6 @@
-package com.semrush.logic;
+package com.site.logic;
 
-import com.semrush.util.PropertyLoader;
+import com.site.util.PropertyLoader;
 
 /**
  * Created by fier on 4/2/2016.

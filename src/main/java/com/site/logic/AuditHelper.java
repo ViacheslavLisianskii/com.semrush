@@ -1,4 +1,4 @@
-package com.semrush.logic;
+package com.site.logic;
 
 /**
  * Created by fier on 4/3/2016.
