@@ -3,17 +3,17 @@
 <suite name="Web Tests">
 	<test verbose="2" name="Login tests">
 		<classes>
-			<class name="com.semrush.pages.LoginTests"/>
+			<class name="com.site.pages.LoginTests"/>
 		</classes>
 	</test>
 	<test verbose="2" name="Create project tests">
 		<classes>
-			<class name="com.semrush.pages.CreateProjectTests"/>
+			<class name="com.site.pages.CreateProjectTests"/>
 		</classes>
 	</test>
 	<test verbose="2" name="Audit tests">
 		<classes>
-			<class name="com.semrush.pages.AuditTests"/>
+			<class name="com.site.pages.AuditTests"/>
 		</classes>
 	</test>
 </suite>

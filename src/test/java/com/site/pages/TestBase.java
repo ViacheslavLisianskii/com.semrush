@@ -1,4 +1,4 @@
-package com.semrush.pages;
+package com.site.pages;
 import com.site.logic.ApplicationManager;
 import org.testng.annotations.*;
 

@@ -1,4 +1,4 @@
-package com.semrush.pages;
+package com.site.pages;
 
 import org.testng.Assert;
 import org.testng.annotations.*;
