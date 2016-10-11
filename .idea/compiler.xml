@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="com.semrush" />
+        <module name="com.site" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.semrush" target="1.8" />
+      <module name="com.site" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

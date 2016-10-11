@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.semrush</groupId>
-	<artifactId>com.semrush</artifactId>
+	<groupId>com.booking</groupId>
+	<artifactId>com.booking</artifactId>
 	<version>1</version>
 	<packaging>jar</packaging>
 
@@ -101,7 +101,7 @@
 			<id>local</id>
 			<properties>
 				<env>dev</env>
-				<site.url>https://www.semrush.com/projects/</site.url>
+				<site.url>http://www.booking.com/</site.url>
 				<site.locale>us</site.locale>
 				<browser.name>chrome</browser.name>
 			</properties>
@@ -113,7 +113,7 @@
 			<id>dev</id>
 			<properties>
 				<env>dev</env>
-				<site.url>https://www.semrush.com/projects/</site.url>
+				<site.url>http://www.booking.com/</site.url>
 				<site.locale>us</site.locale>
 				<browser.name>chrome</browser.name>
 			</properties>
@@ -122,7 +122,7 @@
 			<id>test</id>
 			<properties>
 				<env>dev</env>
-				<site.url>https://www.semrush.com/projects/</site.url>
+				<site.url>http://www.booking.com/</site.url>
 				<site.locale>us</site.locale>
 				<browser.name>chrome</browser.name>
 			</properties>
@@ -131,7 +131,7 @@
 			<id>prod</id>
 			<properties>
 				<env>dev</env>
-				<site.url>https://www.semrush.com/projects/</site.url>
+				<site.url>http://www.booking.com/</site.url>
 				<site.locale>us</site.locale>
 				<browser.name>chrome</browser.name>
 			</properties>

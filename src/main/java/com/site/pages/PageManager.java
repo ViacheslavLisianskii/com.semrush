@@ -10,21 +10,11 @@ public class PageManager {
 
     private WebDriver DRIVER;
 
-    public LoginPage loginPage;
-    public ProjectsListPage projectsPage;
-    public InternalPage internalPage;
-    public DashboardPage dashboardPage;
-    public SiteAuditSettingsPage siteAuditSettingsPage;
-    public ReportPage reportPage;
+    public HomePage homePage;
 
     public PageManager(WebDriver driver) {
         this.DRIVER = driver;
-        loginPage = initElements(new LoginPage(this));
-        projectsPage = initElements(new ProjectsListPage(this));
-        internalPage = initElements(new InternalPage(this));
-        dashboardPage = initElements(new DashboardPage(this));
-        siteAuditSettingsPage = initElements(new SiteAuditSettingsPage(this));
-        reportPage = initElements(new ReportPage(this));
+        homePage = initElements(new HomePage(this));
     }
 
     private <T extends Page> T initElements(T page) {

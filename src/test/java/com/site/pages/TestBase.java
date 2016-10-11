@@ -8,11 +8,6 @@ public class TestBase {
 	* Please, read "read me.txt" file
 	* */
 
-	public final String correctEmail = "";
-	public final String correctPassword = "";
-	public final String correctProjectDomain = "vk.com";
-	public final String correctProjectName = "vk";
-
 	protected ApplicationManager app;
 
 	@BeforeTest

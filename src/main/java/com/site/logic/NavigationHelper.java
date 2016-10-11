@@ -1,9 +1,7 @@
 package com.site.logic;
 
-import com.site.util.PropertyLoader;
-
 /**
- * Created by fier on 4/2/2016.
+ * Created by fier on 5/24/2016.
  */
 public class NavigationHelper extends DriverBasedHelper {
     private String baseUrl;
@@ -13,16 +11,7 @@ public class NavigationHelper extends DriverBasedHelper {
         this.baseUrl = manager.getBaseUrl();
     }
 
-    public void openProjectsPage() {
+    public void openBaseSite() {
         driver.get(baseUrl);
-    }
-
-    public void openRelativeUrl(String url) {
-        driver.get(baseUrl + url);
-    }
-
-    public void changeLanguage(){
-        pages.internalPage
-                .changeLanguage(PropertyLoader.loadProperty("site.locale"));
     }
 }
